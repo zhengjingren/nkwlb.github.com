@@ -1,0 +1,92 @@
+@import "normalize.css";
+
+body {
+    background-color: #eee;
+}
+
+#main {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.cl {
+    clear: both;
+}
+
+#logo {
+    float: left;
+    margin-left: 20px;
+}
+
+#nav {
+    float: left;
+    margin-top: 6px;
+    margin-left: 40px;
+}
+
+.nav-content {
+    line-height: 33px;
+}
+
+.nav-content b {
+    margin-left: 40px;
+    font-size: 1.2em;
+}
+
+.nav-content a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav-content a:hover {
+    color: #fff;
+}
+
+#subject {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#sidebar {
+    float: left;
+    width: 250px;
+    height: 805px;
+    background-color: #ffff00;
+}
+
+#content {
+    float: left;
+    margin-left: 5px;
+    width: 769px;
+    height: 805px;
+}
+
+.miao-left {
+    float: left;
+    height: 400px;
+    width: 382px;
+    background-color: #c0c0c0;
+}
+
+.miao-right {
+    float: right;
+    height: 400px;
+    width: 382px;
+    background-color: #c0c0c0;
+}
+
+#row2{
+    margin-top: 5px;
+}
+#footer {
+    margin-top: 5px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    height: 50px;
+    text-align: center;
+    background-color: #663399;
+}
